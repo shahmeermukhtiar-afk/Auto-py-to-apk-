@@ -1,0 +1,12 @@
+auto-py-to-apk
+buildozer
+cython
+kivy
+kivy-deps.angle
+kivy-deps.glew
+kivy-deps.sdl2
+kivy.deps.gstreamer
+pillow
+requests
+setuptools
+wheel
