@@ -1,60 +1,32 @@
-Installation Steps  
+# Auto-py-to-apk-
 
-1.
-    Clone this repository:     
+This tool converts Python projects into Android APKs with an interactive GUI.
 
-                    git clone https://github.com/shahmeermukhtiar-afk/Auto-py-to-apk-.git
+## 🚀 Installation Steps
 
-2. Run this command 
-                       cd Auto-py-to-apk-    
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shahmeermukhtiar-afk/Auto-py-to-apk-.git
+   cd Auto-py-to-apk-
 
+2.(Optional) Create and activate a virtual environment:
 
-3.  (Optional) Create a virtual environment and activate it:
+python3 -m venv venv
+source venv/bin/activate
 
+3.  pip install -r requirements.txt
 
-                      python3 -m venv venv source venv/bin/activate
+4. Run the tool:
 
-3.     Install dependencies (if any). If you have a requirements.txt file, run:             
-           
-       pip install -r requirements.txt
+5.Follow the GUI prompts to select your project and convert it to APK. 
 
-4.     Run the GUI tool:
+🛠️ Requirements
 
-                    python apk_builder_gui.py
+Python 3.8 or higher
 
-5.     In the GUI, select your Python project directory, fill in app name, version, and click Convert to APK.
+Buildozer (for APK build)
 
-      After build, check the built APK inside the bin/ folder of the project workspace.
+Android SDK/NDK (handled by Buildozer automatically)
 
-
-   🧩 Project Structure
-
-   Auto-py-to-apk-/
-│
-├── apk_builder_gui.py
-├── README.md
-├── requirements.txt
-└── (other source files)
-
-
-  🛠️ Tips & Notes
-
- On first build, Buildozer may take a long time since it downloads SDK, NDK,
-
- 
-If Buildozer command is not found, install it via pip install buildozer and ensure it's in your PATH.
-
-Always use a clean environment to avoid conflicts.
-
-📜 License
-
-MIT
- (or your chosen license)
-
-
-
-
-
-
-
+💬 Notes
 
